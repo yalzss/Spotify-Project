@@ -1,0 +1,411 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    * {
+        font-family: "Poppins", sans-serif;  
+    }
+    .sidebar {
+        display:none
+    }
+    main {
+        display: flex;
+        flex-flow: column nowrap;
+        height: 4680px;
+        width: 100%;
+        padding: 20px;   
+}
+main > header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+    main > section > .artists-grid {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+    main > section > h2 {
+        margin-top: 40px;
+        margin-bottom: 5px;
+        font-size: 30px;
+        text-align: center;
+    }
+    main > header > .pes01 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 300px;
+        margin-top: 5px;
+    }
+    main > header > .pes01 i {
+        font-size: 15px;
+        color: #25CF61;
+        position: absolute;
+        left: 50px; 
+        top: 50%;
+        transform: translateY(-50%); 
+        color: #25CF61; 
+    }
+    main > header > .pes01 > .nav-logo {
+        display: block;
+    }
+main > section > .artists-grid > .caixa1,
+main > section > .artists-grid > .caixa2,
+main > section > .artists-grid > .caixa3,
+main > section > .artists-grid > .caixa4,
+main > section > .artists-grid > .caixa5,
+main > section > .artists-grid > .caixa6 {
+    width: 260px;
+    height: 300px;
+}
+main > section > .artists-grid > .caixa1 > .artist-img,
+main > section > .artists-grid > .caixa2 > .artist-img,
+main > section > .artists-grid > .caixa3 > .artist-img,
+main > section > .artists-grid > .caixa4 > .artist-img,
+main > section > .artists-grid > .caixa5 > .artist-img,
+main > section > .artists-grid > .caixa6 > .artist-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+main > section > .albums-grid {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+main > section > .albums-grid > .caixa1a > .albums-popular,
+main > section > .albums-grid > .caixa2a > .albums-popular,
+main > section > .albums-grid > .caixa3a > .albums-popular,
+main > section > .albums-grid > .caixa4a > .albums-popular,
+main > section > .albums-grid > .caixa5a > .albums-popular,
+main > section > .albums-grid > .caixa6a > .albums-popular {
+    width: 180px;
+    height: 180px;
+}
+main > header > .pes01 > div.nav-logo i {
+    font-size: 29px;
+    left: 290px; 
+    top: 50%;
+}
+main > .navmoba-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+main > .navmoba-menu > .navmoba-playlist{
+    background-color: #242424;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width:160px;
+    height:110px;
+    text-align: center;
+    border-radius: 10px;
+}
+main > .navmoba-menu > .navmoba-playlist > h5 {
+    font-size: 13px;
+    color: #fff;
+}
+main > .navmoba-menu > .navmoba-playlist > h5:hover {
+    color: #25CF61;
+    transition: color 0.5s;
+}
+main > .navmoba-menu > .navmoba-playlist > p {
+    font-size: 10px;
+}
+main > .navmoba-menu > .navmoba-playlist > button {
+    border-radius: 8px;
+    background-color: #fff;
+    color:#000;
+    width: 95px;
+    height: 25px;
+    border: none;
+    text-align: center;
+    margin-top: 7px;
+    font-weight: bold;
+}
+main > .navmoba-menu > .navmoba-playlist > button:hover {
+    background-color: transparent;
+    border: 1px solid #25CF61;
+    color: white;
+    transition: border 1s, background-color 0.3s;
+}
+
+main > .navmoba-menu > .navmoba-podcast {
+    width: 150px;
+    text-align: center;
+    background-color: #242424;
+}
+main > .navmoba-menu > .navmoba-podcast {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #242424;
+    border-radius: 10px;
+    width: 160px;
+    height: 110px;
+}
+main > .navmoba-menu > .navmoba-podcast > h5 {
+    font-size: 12px;
+}
+main > .navmoba-menu > .navmoba-podcast > p {
+    font-size: 10px;
+}
+main > .navmoba-menu > .navmoba-podcast > button {
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #fff;
+    margin-top: 5px;
+    width: 95px;
+    height: 25px;
+    border: none;
+}
+main > .navmoba-menu > .navmoba-podcast > h5:hover {
+    color: #25CF61;
+    transition: color 0.5s;
+}
+main > .navmoba-menu > .navmoba-podcast > button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #25CF61;
+    transition: background-color 0.3s, border 0.5s;
+}
+main > .footer-moba {
+    display: block;
+}
+main > .footer-moba > .nav-moba-footer {
+    display: flex;
+    flex-flow: column;
+    gap: 2px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+main > .footer-moba > .nav-moba-footer a {
+    text-decoration: none;
+    color: #929292;
+}
+main > .footer-moba > .nav-moba-footer a:hover {
+    color: #ffffff;
+}
+main > .footer-moba > .nav-lang-button {
+    display: block;
+    margin: auto;
+}
+}
+@media screen and (max-width: 1627px) and (orientation: landscape){
+    main {
+        display: block;
+        margin: auto;
+    }
+    main > header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main > section > .artists-grid {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    main > section {
+        display: flex;
+        flex-flow: row wrap;
+        width: 500px;
+    }
+    main > section > .albums-grid {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .sidebar {
+        display: none;
+    }
+    main > header > .pes01 > .nav-logo {
+        position: fixed;
+        display: block;
+    }
+    main > header > .pes01 > div.nav-logo i {
+        font-size: 25px;
+        left: 515px; 
+        top: 10%;
+    }
+    main > section > h2 {
+        display: block;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    main > .footer-moba {
+        display: block;
+    }
+    main > .footer-moba > .nav-moba-footer {
+        display: flex;
+        flex-flow: column;
+        gap: 2px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    main > .footer-moba > .nav-moba-footer a {
+        text-decoration: none;
+        color: #929292;
+    }
+    main > .footer-moba > .nav-moba-footer a:hover {
+        color: #ffffff;
+    }
+    main > .footer-moba > .nav-lang-button {
+        display: block;
+        margin: auto;
+    }
+    main > .navmoba-menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    main > .navmoba-menu > .navmoba-playlist{
+        background-color: #242424;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width:160px;
+        height:110px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    main > .navmoba-menu > .navmoba-playlist > h5 {
+        font-size: 13px;
+        color: #fff;
+    }
+    main > .navmoba-menu > .navmoba-playlist > h5:hover {
+        color: #25CF61;
+        transition: color 0.5s;
+    }
+    main > .navmoba-menu > .navmoba-playlist > p {
+        font-size: 10px;
+    }
+    main > .navmoba-menu > .navmoba-playlist > button {
+        border-radius: 8px;
+        background-color: #fff;
+        color:#000;
+        width: 95px;
+        height: 25px;
+        border: none;
+        text-align: center;
+        margin-top: 7px;
+        font-weight: bold;
+    }
+    main > .navmoba-menu > .navmoba-playlist > button:hover {
+        background-color: transparent;
+        border: 1px solid #25CF61;
+        color: white;
+        transition: border 1s, background-color 0.3s;
+    }
+    
+    main > .navmoba-menu > .navmoba-podcast {
+        width: 150px;
+        text-align: center;
+        background-color: #242424;
+    }
+    main > .navmoba-menu > .navmoba-podcast {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #242424;
+        border-radius: 10px;
+        width: 160px;
+        height: 110px;
+    }
+    main > .navmoba-menu > .navmoba-podcast > h5 {
+        font-size: 12px;
+    }
+    main > .navmoba-menu > .navmoba-podcast > p {
+        font-size: 10px;
+    }
+    main > .navmoba-menu > .navmoba-podcast > button {
+        border-radius: 8px;
+        font-weight: bold;
+        background-color: #fff;
+        margin-top: 5px;
+        width: 95px;
+        height: 25px;
+        border: none;
+    }
+    main > .navmoba-menu > .navmoba-podcast > h5:hover {
+        color: #25CF61;
+        transition: color 0.5s;
+    }
+    main > .navmoba-menu > .navmoba-podcast > button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid #25CF61;
+        transition: background-color 0.3s, border 0.5s;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1627px) and (orientation: portrait) {
+    .sidebar {
+        display: flex;
+        width: 500px;
+        height: 2670px;
+        overflow-y: auto;
+    }
+    main > header {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    main > section > .artists-grid {
+        flex-flow: row wrap;
+    }
+    main > section {
+        display: flex;
+        flex-flow: row wrap;
+        width: 500px;
+    }
+    main > section > .artists-grid > .caixa1,
+    main > section > .artists-grid > .caixa2,
+    main > section > .artists-grid > .caixa3,
+    main > section > .artists-grid > .caixa4,
+    main > section > .artists-grid > .caixa5,
+    main > section > .artists-grid > .caixa6 {
+    flex-flow: column wrap;
+}
+    main > section > .artists-grid > .caixa1 > .artist-img,
+    main > section > .artists-grid > .caixa2 > .artist-img,
+    main > section > .artists-grid > .caixa3 > .artist-img,
+    main > section > .artists-grid > .caixa4 > .artist-img,
+    main > section > .artists-grid > .caixa5 > .artist-img,
+    main > section > .artists-grid > .caixa6 > .artist-img {
+    flex-flow: row wrap;
+}
+main > section > .albums-grid {
+    display: flex;
+    flex-flow: row wrap;
+}
+main > section > h2 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+.nav-footer {
+    margin-top: auto;  
+}
+}

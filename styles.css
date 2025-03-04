@@ -1,0 +1,285 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-color: black;
+    color: #fff;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+main > .navmoba-menu {
+    display: none;
+}
+main > .footer-moba {
+    display: none;
+}
+main > header > .pes01 > .nav-logo {
+    display: none;
+}
+.container {
+    display: flex;
+    height: 100vh;
+
+}
+.sidebar {
+    width: 300px;
+    background-color: #121212;
+    padding: 24px 24px 90px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nav-logo i {
+    font-size: 28px;
+}
+.nav-logo i:hover {
+    color: #25CF61; 
+    transition: 0.4s;
+}
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-library i, .nav-library p {
+    color: #B7B3B6;
+    font-size: 15px;
+    cursor: pointer;
+}
+.nav-library i, .nav-library p:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.2s;
+}
+.nav-playlist, .nav-podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+.nav-playlist button,.nav-podcast button {
+    background-color: #ffffff;
+    color: #000;
+    text-align: center;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 16px;
+}
+.nav-playlist button:hover,.nav-podcast button:hover {
+    background-color: black;
+    color: #fff;
+    transition: 0.3s;
+}
+.nav-playlist p,.nav-podcast p {
+    font-size: 12px;
+}
+
+.nav-playlist h5,.nav-podcast h5 {
+    font-size: 15px;
+}
+.nav-footer {
+    margin-top: auto;  
+}
+.nav-footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+.nav-footer a:hover {
+    color: #ffffffb6;
+}
+.nav-lang-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.nav-lang-button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: black;
+    transition: 0.3s;
+}
+main > section > .artists-grid {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+main > section > h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+main > section > .artists-grid > .caixa1,
+main > section > .artists-grid > .caixa2,
+main > section > .artists-grid > .caixa3,
+main > section > .artists-grid > .caixa4,
+main > section > .artists-grid > .caixa5,
+main > section > .artists-grid > .caixa6 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 300px;
+    background-color: #171717;
+    border-radius: 10px;
+}
+main > section > .artists-grid > .caixa1:hover,
+main > section > .artists-grid > .caixa2:hover,
+main > section > .artists-grid > .caixa3:hover,
+main > section > .artists-grid > .caixa4:hover,
+main > section > .artists-grid > .caixa5:hover,
+main > section > .artists-grid > .caixa6:hover {
+    background: linear-gradient( #171717 70%, #25cf611c );
+    transition:  ease-in-out 0.4s;
+
+}
+main > section > .artists-grid > .caixa1 > h3,
+main > section > .artists-grid > .caixa2 > h3,
+main > section > .artists-grid > .caixa3 > h3,
+main > section > .artists-grid > .caixa4 > h3,
+main > section > .artists-grid > .caixa5 > h3,
+main > section > .artists-grid > .caixa6 > h3 {
+    margin-top: 20px;
+}
+
+main > section > .artists-grid > .caixa1 > p,
+main > section > .artists-grid > .caixa2 > p,
+main > section > .artists-grid > .caixa3 > p,
+main > section > .artists-grid > .caixa4 > p,
+main > section > .artists-grid > .caixa5 > p,
+main > section > .artists-grid > .caixa6 > p {
+    color: #a7a7a7;
+}
+main > section > .artists-grid > .caixa1 > .artist-img,
+main > section > .artists-grid > .caixa2 > .artist-img,
+main > section > .artists-grid > .caixa3 > .artist-img,
+main > section > .artists-grid > .caixa4 > .artist-img,
+main > section > .artists-grid > .caixa5 > .artist-img,
+main > section > .artists-grid > .caixa6 > .artist-img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+main > section > .artists-grid > .caixa1 > .artist-img:hover,
+main > section > .artists-grid > .caixa2 > .artist-img:hover,
+main > section > .artists-grid > .caixa3 > .artist-img:hover,
+main > section > .artists-grid > .caixa4 > .artist-img:hover,
+main > section > .artists-grid > .caixa5 > .artist-img:hover,
+main > section > .artists-grid > .caixa6 > .artist-img:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s; 
+}
+main > section > .albums-grid {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 25px;
+}
+main > section > .albums-grid > .caixa1a,
+main > section > .albums-grid > .caixa2a,
+main > section > .albums-grid > .caixa3a,
+main > section > .albums-grid > .caixa4a,
+main > section > .albums-grid > .caixa5a,
+main > section > .albums-grid > .caixa6a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    height: 350px;
+    background-color: #171717;
+    border-radius: 10px;
+}
+main > section > .albums-grid > .caixa1a:hover,
+main > section > .albums-grid > .caixa2a:hover,
+main > section > .albums-grid > .caixa3a:hover,
+main > section > .albums-grid > .caixa4a:hover,
+main > section > .albums-grid > .caixa5a:hover,
+main > section > .albums-grid > .caixa6a:hover {
+    background: linear-gradient( #171717 70%, #ffffff1f );
+    transition: 1s ease-in-out 2s;
+
+}
+main > section > .albums-grid > .caixa1a > .albums-popular,
+main > section > .albums-grid > .caixa2a > .albums-popular,
+main > section > .albums-grid > .caixa3a > .albums-popular,
+main > section > .albums-grid > .caixa4a > .albums-popular,
+main > section > .albums-grid > .caixa5a > .albums-popular,
+main > section > .albums-grid > .caixa6a > .albums-popular {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+main > section > .albums-grid > .caixa1a > .albums-popular:hover,
+main > section > .albums-grid > .caixa2a > .albums-popular:hover,
+main > section > .albums-grid > .caixa3a > .albums-popular:hover,
+main > section > .albums-grid > .caixa4a > .albums-popular:hover,
+main > section > .albums-grid > .caixa5a > .albums-popular:hover,
+main > section > .albums-grid > .caixa6a > .albums-popular:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
+}
+main > section > .albums-grid > .caixa1a > h3,
+main > section > .albums-grid > .caixa2a > h3,
+main > section > .albums-grid > .caixa4a > h3,
+main > section > .albums-grid > .caixa5a > h3,
+main > section > .albums-grid > .caixa6a > h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+main > section > .albums-grid > .caixa3a > h3 {
+    margin-top: 10px;
+    font-size: 12px;
+}
+main > section > .albums-grid > .caixa1a > p,
+main > section > .albums-grid > .caixa2a > p,
+main > section > .albums-grid > .caixa3a > p,
+main > section > .albums-grid > .caixa4a > p,
+main > section > .albums-grid > .caixa5a > p,
+main > section > .albums-grid > .caixa6a > p {
+    color: #a7a7a7;    
+}
+main > header > .pes01 > input {
+    width: 80%;
+    height: 35px;
+    background-color: #171717;
+    padding: 10px 10px 10px 40px; 
+    font-size: 13px;
+    border-radius: 20px;
+    border: 1px solid #cccccc3d;
+    box-sizing: border-box;
+}
+main > header > .pes01 > input::placeholder {
+    color: #fff;
+}
+main > header > .pes01 > input:focus {
+    color: #fff;
+}
+main > header > .pes01 {
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+}
+main > header > .pes01 i {
+    font-size: 15px;
+    color: #25CF61;
+    position: absolute;
+    left: 10px; 
+    top: 50%;
+    transform: translateY(-50%); 
+    color: #25CF61; 
+}
+

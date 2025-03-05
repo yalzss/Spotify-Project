@@ -132,7 +132,7 @@ main > .navmoba-menu > .navmoba-playlist > button {
     border: none;
     text-align: center;
     margin-top: 7px;
-    font-weight: bold;
+    font-size: 8px;
 }
 main > .navmoba-menu > .navmoba-playlist > button:hover {
     background-color: transparent;
@@ -165,12 +165,12 @@ main > .navmoba-menu > .navmoba-podcast > p {
 }
 main > .navmoba-menu > .navmoba-podcast > button {
     border-radius: 8px;
-    font-weight: bold;
     background-color: #fff;
     margin-top: 5px;
     width: 95px;
     height: 25px;
     border: none;
+    font-size: 8px;
 }
 main > .navmoba-menu > .navmoba-podcast > h5:hover {
     color: #25CF61;
